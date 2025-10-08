@@ -32,17 +32,17 @@ namespace TestForCodeSolvers.Pages
         }
         public void LoginWithValidCredentials()
         {
-            Driver.FindElement(UsernameTextField).SendKeys("standard_user");
-            Driver.FindElement(PasswordTextField).SendKeys("secret_sauce");
+            Type(UsernameTextField, "standard_user");
+            Type(PasswordTextField, "secret_sauce");
             Thread.Sleep(100);
-            Driver.FindElement(LoginButton).Click();
+            Click(LoginButton);
         }
         public void LoginWithLockedOutCredentials()
         {
-            Driver.FindElement(UsernameTextField).SendKeys("locked_out_user");
-            Driver.FindElement(PasswordTextField).SendKeys("secret_sauce");
+            Type(UsernameTextField, "locked_out_user");
+            Type(PasswordTextField, "secret_sauce");
             Thread.Sleep(100);
-            Driver.FindElement(LoginButton).Click();
+            Click(LoginButton);
         }
         public string GetLoginErrorText()
         {

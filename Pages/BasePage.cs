@@ -25,10 +25,10 @@ namespace TestForCodeSolvers.Pages
             Wait.Until(d => d.FindElement(locator).Displayed);
             Driver.FindElement(locator).Click();
         }
-        protected void Type(By locator)
+        protected void Type(By locator, string text)
         {
             Wait.Until(d => d.FindElement(locator).Displayed);
-            Driver.FindElement(locator).SendKeys("");
+            Driver.FindElement(locator).SendKeys(text);
         }
         protected bool IsVisible(By locator)
         {

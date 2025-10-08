@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestForCodeSolvers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3df7ab7ebf5095ae9b6b37b2439afa62f3ff1f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ddc379bbb850ea738395bcc09411cab5b2ff415")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestForCodeSolvers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestForCodeSolvers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
