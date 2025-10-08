@@ -9,6 +9,8 @@ If you don't know the framework and are struggling running the project, just nee
 -Install a .NET IDE (I used Visual Studio 2022 Comunity, I'm not sure if this framework supports Visual Studio Code).
 -Install Reqnroll extension.
 -Open the project.
+-Open test explorer.
+-Run all the test.
 
 If the project doesn't run after following the above steps, please consult the official Reqnroll documentation:
 https://docs.reqnroll.net/latest/quickstart/index.html
